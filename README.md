@@ -1,10 +1,14 @@
 # Python3 TempEval3 Toolkit
 
+Dennis Aumiller, Satya Almasian  
+Heidelberg University, 2021
+
 This contains an updated version of the [original TempEval toolkit](https://github.com/naushadzaman/tempeval3_toolkit), adjusted to work with Python3.
 Notably, this dropped support for some of the event-related recognition, and is now mainly suitable for temporal extraction only.
 We further extended this minimally by including the option to print a rudimentary confusion matrix (available with `debug_level >= 1.5`).
 
 Please see our [upstream repository on temporal tagging with Transformers](https://github.com/satya77/Transformer_Temporal_Tagger) for more information.
+Due to the lack of licensing information in the original repository, we similarly do not specify an official license on this toolkit. If you are a copyright holder of the original code, please reach out to us.
 
 ## Old Readme from TempEval3
 
@@ -83,4 +87,4 @@ change the variable:
 to  
 `consider_DURING_as_SIMULTANEOUS = False`  
 
-## last updated: April 25, 2013. 
+original README last updated: April 25, 2013. 
